@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp( //we commonly use const MaterialApp
      theme: ThemeData(fontFamily: 'Poppins'),
-      home:const Home(), //home page in home.dart   
+      home:Home(), //home page in home.dart   
       debugShowCheckedModeBanner: false,// to remove the banner
     );
   }
